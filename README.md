@@ -1,10 +1,22 @@
-- 👋 Hi, I’m @MaybeTomorrowIsTheEnd
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+#include<iostream>
+#include<math.h>
 
-<!---
-MaybeTomorrowIsTheEnd/MaybeTomorrowIsTheEnd is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+using namespace std;
+
+int main()
+{
+float r1,r2,r;
+
+cout << "magnitude one resistance (Om):";
+cin >> r1;
+
+cout << "magnitude one resistance (Om):";
+cin >> r2;
+
+r = r1+r2;
+r = r1 * r2 / (r1 + r2);
+
+if (r)
+{
+    cout << "resistance:" << r;
+}
